@@ -1,0 +1,3 @@
+kenyer 200
+kenyer 100
+tej 100
