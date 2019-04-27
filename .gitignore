@@ -420,4 +420,4 @@ fabric.properties
 
 #OTHERS
 
-.zip
+*.zip
