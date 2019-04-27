@@ -1,0 +1,32 @@
+V "GNAT Lib v2018"
+P ZX
+
+RN
+RV SPARK_05
+
+U bag_package%b		bag_package.adb		982db1ac NE OO PK GE
+
+U bag_package%s		bag_package.ads		4e526556 BN EE NE OO PK GE
+
+D bag_package.ads	20181029214622 4e526556 bag_package%s
+D bag_package.adb	20181029214611 d67fd4fa bag_package%b
+D system.ads		20180524051735 085b6ffb system%s
+X 1 bag_package.ads
+2E10 Index 10r37 12r40 14r40 18r23 2|7r18 12r37 17r40 22r40
+3E10 Counter 18r33 2|8r21 14r17 19r17 24r23
+4k9*Bag_Package 2z10 3z10 18E10 20l5 20e16 2|3b14 27l5 27t16
+6A10*Bag(3E10) 8r31 10r29 12r32 14r32 18c10 2|5r31 12r29 17r32 22r32
+8U15*Empty 8=21 2|5b15 10l9 10t14
+8a21 H{6A10} 2|5b21 8m13
+10U15*Add 10=19 10>34 2|12b15 15l9 15t12
+10a19 H{6A10} 2|12b19 14m9 14r30
+10*34 I{2E10} 2|12b34 14r11 14r32
+12U15*Remove 12=22 12>37 2|17b15 20l9 20t15
+12a22 H{6A10} 2|17b22 19m9 19r30
+12*37 I{2E10} 2|17b37 19r11 19r32
+14V14*Has_Any{boolean} 14=22 14>37 2|22b14 25l9 25t16
+14a22 H{6A10} 2|22b22 24r16
+14*37 I{2E10} 2|22b37 24r18
+X 2 bag_package.adb
+7*13 I{1|2E10} 8r15
+

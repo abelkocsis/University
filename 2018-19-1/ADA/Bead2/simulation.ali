@@ -1,0 +1,240 @@
+V "GNAT Lib v2018"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_IMPLICIT_PROTECTED_OBJECT_ALLOCATIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_PROTECTED_TYPES
+RV NO_RELATIVE_DELAY
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=4
+RV MAX_TASK_ENTRIES=3
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U simulation%b		simulation.adb		3b9d73a6 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-calend.ads		20180524051736 372815c8 ada.calendar%s
+D a-caldel.ads		20180524051734 9f20b83d ada.calendar.delays%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051736 bf4f806b ada.finalization%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180524051735 bb51c45a ada.numerics%s
+D a-nudira.ads		20180524051735 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180524051735 72908cdb ada.numerics.discrete_random%b
+D a-reatim.ads		20180524051736 0240fc73 ada.real_time%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-c.ads		20180524051734 5421119b interfaces.c%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D simulation.adb	20181210234911 a31d755a simulation%b
+D simulation-agent.adb	20181210222028 07e35b6e simulation.agent
+D simulation-base.adb	20181210232846 03378606 simulation.base
+D simulation-map.adb	20181210234735 3d4cc781 simulation.map
+D simulation-printer.adb  20181210234832 ef33add5 simulation.printer
+D simulation-projectile.adb  20181210234735 1c36a026 simulation.projectile
+D simulation-safe_random.adb  20181208213353 a2c98b86 simulation.safe_random
+D simulation-ship.adb	20181210234910 092c74d5 simulation.ship
+D system.ads		20180524051735 085b6ffb system%s
+D s-atacco.ads		20180524051736 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-finroo.ads		20180524051736 4ff27390 system.finalization_root%s
+D s-imgint.ads		20180524051734 02dbe0c2 system.img_int%s
+D s-imguns.ads		20180524051735 9ff43cf7 system.img_uns%s
+D s-multip.ads		20180524051734 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20180524130237 089051b2 system.os_constants%s
+D s-osinte.ads		20180524051737 01b3ad47 system.os_interface%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-rannum.ads		20180524051735 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20180524051736 20ba1217 system.random_numbers%b
+D s-ransee.ads		20180524051736 01a57b33 system.random_seed%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stausa.ads		20180524051735 017a0a05 system.stack_usage%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180524051737 801abd01 system.task_info%s
+D s-taspri.ads		20180524051736 f40ac08d system.task_primitives%s
+D s-taprop.ads		20180524051736 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20180524051737 1d8c1ccb system.tasking%s
+D s-taprob.ads		20180524051736 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20180524051737 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20180524051736 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20180524051737 cca55c94 system.tasking.stages%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-valuns.ads		20180524051736 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 18|1r6 1r36 2r5 7r32
+X 7 a-numeri.ads
+16K13*Numerics 32e17 18|1r10 7r36
+X 8 a-nudira.ads
+44k22*Discrete_Random 75e33 18|1w19 7r45
+50R9 Generator<38|63R9> 18|9r11[7]
+52V13 Random{integer} 24|7s16[18|7] 8s16[18|7]
+55U14 Reset<38|100p14> 24|6s9[18|7]
+X 9 a-nudira.adb
+53V16 Random[38|83]{integer} 39|392b13[18|7]
+X 13 a-textio.ads
+49K13*Text_IO 471e16 18|1w40 2r9
+208U14*Put 22|24s17
+242U14*Put 22|5s13
+263U14*Put_Line 22|8s21 10s21 12s21 14s21 16s21 26s13 28s9
+X 15 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 18 simulation.adb
+4U11*Simulation 4b11 97l5 97t15 19|1r11 20|1r10 21|1r11 22|1r11 23|1r10 24|1r11
+. 25|1r10
+5i5 N{integer} 6r38 24r34 24r40 56r30 56r36 21|15r11 15r16 16r11 16r16 27r21
+. 28r25 46r21 50r21 51r18 51r42 52r18 54r35 55r35 62r21 69r21 71r32 77r25
+. 77r30 22|22r21 23r25
+6I13 Size{integer} 7r62
+7K13 Random_Size[8|44] 8r9
+9r5 Rand{8|50R9[7]} 24|6r15 7r23 8r23
+11E10 Oldal 11e36 33r25 44r41 75r31
+11n20 Imperial{11E10} 41r23 21|47r45 25|9r21 33r36 38r25 46r40
+11n30 Rebel{11E10} 42r23 21|16r46 30r45 51r47 25|40r40
+12E10 Esemeny 12e53 28r51 22|3r47
+12n22 Called{12E10} 22|7r22 25|25r43
+12n30 Hit{12E10} 22|9r22 25|8r39
+12n35 Shoot{12E10} 22|11r22 25|52r39
+12n42 Ended{12E10} 21|61r32 22|13r22
+12n49 Luk{12E10} 22|15r22 23|13r37
+14R10 Coordinates 17e15 20r41 60r31 61r33 65r36 21|3r27 8r29 19r32 23|3r9
+. 24|3r37 4r13
+15i9 X{integer} 21|5r20 10r20 21r13 23|7r15 24|7m11
+16i9 Y{integer} 21|5r25 10r25 21r18 23|7r21 24|8m11
+19w15 Safe_Random 22b20 23|5r10 24|2b16 11l5 11t16
+20V18 Get_Coordinates{14R10} 23|5s22 24|3b14 10l9 10t24
+24A10 Char_Array(character)<integer><integer> 29r35 21|25r13 22|20r31
+25A10 Szoveg(character)<integer>
+27w15 Printer 31b20 21|41r9 61r9 22|2b16 30l5 30t12 23|13r13 25|8r13 25r17
+. 52r13
+28U19 Szoveg_Kiir 28>31 28>47 21|61s17 22|3b15 18l9 18t20 23|13s21 25|8s21
+. 25s25 52s21
+28i31 Azon{integer} 22|3b27 5r31
+28e47 E{12E10} 22|3b43 6r19
+29U19 Matrix_Kiir 29>31 21|41s17 22|20b15 29l9 29t20
+29a31 M{24A10} 22|20b27 24r21
+33T15 Base 33d21 37l9 37e13 41r18 42r18 73b15 20|2b11 28l5 28t9
+33e21 O{11E10}
+34Y15 Send_Out_Ships 34>31 20|8b20 10l17 10t31 21|54s20 55s20
+34i31 N{integer} 20|9r29
+35Y15 Ship_Lost 20|12b20 25|11s32 17s32
+36Y15 Destroy 20|20b20 21|82s24 87s24 23|9s28
+41t5 Death_Star{33T15} 21|54r9 82r13 23|9r17 25|11r21
+42t5 Rebel_Base{33T15} 21|55r9 87r13 25|17r21
+44T15 Ship 44d22 44d38 47l9 47e13 50r32 86b15 21|16r37 47r37 51r37 25|2b11
+. 55l5 55t9
+44i22 Azon{integer} 25|8r33 25r37 31r17 52r33
+44e38 O{11E10} 21|30r41 23|16r56 25|9r17 38r21
+45Y15 Hit 23|18s33 25|7b20
+46Y15 Call_Back 19|5s11 25|24b20 27l17 27t26
+50P10 Ship_Access(44T15) 53r24 60r51 80r27 21|3r47
+52R10 Mezo 55e15 56r42
+53p13 Ship_Acc{50P10} 21|5r28 16m21 30r32 47m21 51m21 64r35 71r35 77r35
+54b13 Status{boolean} 21|10r28 15m21 21m21 29r28 48m21 52m21 66m25 73m25
+56A10 Matrix(52R10)<integer><integer> 70r13
+59w15 Map 84b20 90r5 91r5 93r13 94r9 96r5 20|16r17 18r13 23r13 21|2b16 98l5
+. 98t8 23|16r13 16r40 18r17 19r17 23r13
+60V18 Get_Hajo{50P10} 60>27 21|3b14 6l9 6t17 23|16s44 18s21
+60r27 C{14R10} 21|3b23 5r18 5r23
+61V18 Get_Status{boolean} 61>29 21|8b14 11l9 11t19 23|16s17
+61r29 C{14R10} 21|8b25 10r18 10r23
+62U19 Init 90s9 21|44b15 56l9 56t13
+63U19 End_Fight 20|16s21 23s17 21|58b15 92l9 92t18
+64U19 KiIr 91s9 96s9 20|18s17 21|24b15 42l9 42t13 23|23s17
+65U19 Change_Status 65>33 21|19b15 22l9 22t22 23|19s21
+65r33 C{14R10} 21|19b29 21r11 21r16
+66U19 Luke_Is_Here 94s13 21|13b15 17l9 17t21
+67V18 Vege_e{boolean} 93s17 21|94b14 97l9 97t15
+69b9 Vege{boolean} 21|60r9 96r16
+70a9 M{56A10} 21|5r16 10r16 15r9 16r9 21r9 29r21 30r25 47r13 48r13 51r13
+. 52r13 64r27 66r17 71r27 73r17 77r23
+75T15 Projectile 75d27 75d38 76l9 76e19 78b15 23|2b11 26l5 26t15 25|33r25
+. 40r29 46r29
+75e27 O{11E10} 23|16r60
+75b38 Luke{boolean} 23|6r9
+80T15 Agent 80d23 81l9 81e14 82b15 19|2b11 10l5 10t10 21|64r21 71r21 77r17
+80p23 A{50P10} 19|5r9
+X 20 simulation-base.adb
+3i5 Hajoszam{integer} 9m17 13m13 13r25 14r17 21m13
+4b5 D{boolean} 6r12 15m17 22m13
+8i36 N{integer}
+X 21 simulation-map.adb
+25a9 C{18|24A10} 31m25 33m25 36m21 41r29
+27i13 I{integer} 29r23 30r27 31r28 33r28 36r24
+28i17 J{integer} 29r25 30r29 31r31 33r31 36r27
+46i13 I{integer} 47r15 47r42 48r15
+50i13 I{integer} 51r15 51r44 52r15
+62i13 I{integer} 64r29 66r19
+64t17 U{18|80T15}
+69i13 I{integer} 71r29 73r19
+71t17 U{18|80T15}
+77t13 U{18|80T15}
+X 22 simulation-printer.adb
+22i13 I{integer} 24r23
+23i17 J{integer} 24r25
+X 23 simulation-projectile.adb
+3r5 C{18|14R10} 5m5 7r13 7r19 16r28 16r53 18r30 19r35
+X 24 simulation-safe_random.adb
+4r9 A{18|14R10} 7m9 8m9 9r16
+X 25 simulation-ship.adb
+3b5 Alive{boolean} 5r11 22m13 26m17
+33t21 P{18|75T15}
+40t25 P{18|75T15}
+46t25 P{18|75T15}
+X 38 s-rannum.ads
+75V13*Random{15|74M9} 39|221i21
+76V13*Random{15|77M9} 39|221i21
+X 44 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

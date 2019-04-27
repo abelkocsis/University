@@ -1,0 +1,49 @@
+V "GNAT Lib v2018"
+P ZX
+
+RN
+RV SPARK_05
+
+U warrior_package%b	warrior_package.adb	1d5c44b0 NE OO PK GE
+
+U warrior_package%s	warrior_package.ads	d2a22f57 BN EE NE OO PK GE
+
+D system.ads		20180524051735 085b6ffb system%s
+D warrior_package.ads	20181031233942 d2a22f57 warrior_package%s
+D warrior_package.adb	20181031233850 cffe6be7 warrior_package%b
+X 2 warrior_package.ads
+2E10 Resource 4r48 8r42 9r45 10r45 18r51 3|6r18 12r16 21r51
+3E10 Obstacle 4r31 16r46 3|11r46
+4V19 Tool{2E10} 4>24 3|12s28
+4*24 O{3E10}
+5+10 Bag 7r37 8r34 9r37 10r37 25r21
+7U20 Empty 7=26 3|5s9
+7*26 B{5+10}
+8U20 Add 8=24 8>39 3|7s13 23s9
+8*24 B{5+10}
+8*39 I{2E10}
+9U20 Remove 9=27 9>42 3|15s13
+9*27 B{5+10}
+9*42 I{2E10}
+10V19 Has_Any{boolean} 10=27 10>42 3|14s12
+10*27 B{5+10}
+10*42 I{2E10}
+11k9*Warrior_Package 2z10 3z10 4z19 5z10 7z20 8z20 9z20 10z19 23E10 27l5
+. 27e20 3|1b14 31l5 31t20
+12R10*Warrior 14r32 16r33 18r35 20r29 23c10 26e15 3|3r32 11r33 21r35 26r29
+14U15*Init 14=21 3|3b15 9l9 9t13
+14r21 W{12R10} 3|3b21 5m15 5r15 7m17 7r17
+16U15*Fight 16=22 16>42 3|11b15 19l9 19t14
+16r22 W{12R10} 3|11b22 14m20 14r20 15m20 15r20 17m13
+16*42 O{3E10} 3|11b42 12r33
+18U15*Collect 18=24 18>44 3|21b15 24l9 24t16
+18r24 W{12R10} 3|21b24 23m13 23r13
+18*44 R{2E10} 3|21b44 23r26
+20V14*Is_Alive{boolean} 20>23 3|26b14 29l9 29t17
+20r23 W{12R10} 3|26b23 28r16
+24b9 Status{boolean} 3|17m15 28r18
+25*9 Inventory{5+10} 3|5m17 7m19 14m22 15m22 23m15
+X 3 warrior_package.adb
+6*13 I{2|2E10} 7r30
+12*9 Need{2|2E10} 14r33 15r33
+
