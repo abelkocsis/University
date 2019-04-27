@@ -1,0 +1,251 @@
+body{
+    background-color: #e9e9e9;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+h1{
+    width:90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 260%;
+    color: #000000;
+    border: 2px solid black;
+    
+}
+h2{
+    text-align:center;
+    font-size: 200%;
+}
+p{
+    text-align: left;
+    font-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+img{
+    border: 10px;
+    vertical-align: text-bottom;
+    
+}
+table#tosszeg{
+    background-image: url(../kepek/kep7.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 75px;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+#tosszeg td {
+    border: 1px solid black;
+}
+th#to1{
+    border: 1px solid black;
+    width: 20%;
+    background-color: #a9a9a9;
+}
+th#to2 {
+    border: 1px solid black;
+    width: 15%;
+    background-color: #a9a9a9;
+}
+th#to3 {
+    border: 1px solid black;
+    width: 65%;
+    background-color: #a9a9a9;
+}
+caption{
+    display: table-caption;
+    text-align: left;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 100%;
+}
+#menu ul {
+    margin: auto;
+    width: 90%;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bbbbbb;
+    border: 1px solid black;
+    font-size: 100%;
+}
+#menu li { 
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px;
+}
+#menu li a {
+    text-decoration: underline;
+}
+#menu li a:hover {
+    background-color: #838383;
+}
+#kontakt ul{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    border: 0px solid black;
+    margin-bottom: 40px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 100%;
+}
+#kontakt li{
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom:10px;
+    width: 80%;
+}
+ul#kb{
+    border: 1px solid black;
+}
+img{
+    width:40%; 
+    height:auto;  
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+figure {  
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.galk li{
+    list-style: none;
+    border: 1px;
+}
+video{
+    display: block;
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.negyv {
+    width: 40%;
+}
+.hatv {
+    width: 60%;
+}
+#akad{
+    margin-right: 0;
+    margin-right: 5%;
+    float: right;
+    padding: 5px;
+}
+button#normal{
+    display: none;
+    font-size: 100%;
+    border-style: outset
+}
+button#nagy {
+    display: block;
+    font-size: 100%;
+    border-style: outset;
+}
+aside{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+    font-size: 80%;
+}
+input#ok{
+    font-size:100%;
+    width: 30%;
+}
+input#torl{
+    font-size:100%;
+    width: 20%;
+}
+input{
+    font-size: 100%;
+}
+.kipoz a{
+    position:absolute;
+    left: -9999px;
+}
+.kipoz a:focus{
+    position: static;
+    background: white;
+}
+.vissza{
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+@media print{
+    body{
+        font-family:'Times New Roman', Times, serif;
+        margin: 0cm;
+    }
+    header, main, footer, p, h1, h2, h3{
+        width: 100%;
+        padding: 0;
+        border: 0;
+    }
+    nav#akad, .div, button{
+        display: none;
+    }
+    a:after {
+        content: " ("attr(href) ")";
+    }
+    footer{
+        page-break-before: always;
+    }
+    article{
+        page-break-after: always;
+    }
+    
+    
+}
+@media all and (max-width: 500px){
+    h1,h2,h3{
+        font-size: 110%;
+    }
+    header {
+        width: 95%;
+    }
+    #menu li{
+        float: none;
+    }
+    p{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    img{
+        width: 80%;
+    }
+    video{
+        width: 80%;
+    }
+    table{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    input#ok{
+        width: 100%;
+    }
+    input#torl{
+        width: 70%;
+    }
+}

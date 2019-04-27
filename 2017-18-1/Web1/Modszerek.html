@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>ROLLY: Módszerek</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stilus.css" title="normal">
+    <link rel="alternate stylesheet" type="text/css" href="css/stilusn.css" title="nagy">
+    <script type="text/javascript" src="scripts/styleswitcher.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+
+<body>
+    <header>
+        <nav id="akad">
+            <button id="nagy" onclick="setActiveStyleSheet('nagy'); return false;">Nagybetűs nézet</button>
+            <button id="normal" onclick="setActiveStyleSheet('normal'); return false;">Normál nézet</button>
+        </nav>
+    <h1>Rolly: Gerincgörbületek kirajzolása sugárterhelés mentesen</h1>
+    
+        <nav id="menu">
+            <ul>
+              <li><a href=MiIsEz.html>Mi is ez?</a></li>
+              <li><a href=Bevezetes.html>Bevezetés: miért?</a></li>
+              <li>Módszerek</li>
+              <li><a href=Osszegzes.html>Összegzés</a></li>
+              <li><a href=Galeria.html>Galéria</a></li>
+              <li><a href=Kerdoiv.html>Kérdőív</a></li>
+            </ul>
+        </nav>
+
+
+   
+    </header>
+    <main id="tart">
+    <nav class="kipoz">
+        <a href="#tart">Ugrás a tratalomra</a>
+    </nav>
+    <h2>Módszerek</h2>
+    <nav>
+    <ul>
+        <li><a href="#eszkoz">Az eszköz, Rolly</a></li>
+        <li><a href="#teszt">Tesztelés - pontosságmérés</a></li>
+        <li><a href="#meres">A mérés</a></li>
+        <li><a href="#prog">A programkód</a></li>
+    </ul>
+    </nav>
+    <article id="eszkoz">
+    <h3>Az eszköz, Rolly</h3>
+    <p>
+        Az eszköz nélkülözhetetlen része az NI <strong>myRIO</strong>-ja. </p>
+        <aside>Köszönjük a National Instruments Hungary Kft-nek, hogy lehetővé tették számunkra egy myRIO használatát.</aside>
+        <p>
+        Az energiaellátást biztosító <strong>akkumulátor</strong>ral és a méréshez szükséges <strong>szenzorok</strong>kal 
+        együtt a myRIO-t a prototípusban egy Legokerettel fogtuk össze. A myRIO-t 
+        használhatjuk a kapcsolattartásra, mivel routerként is üzemel, így 
+        képes Interneten keresztül kommunikálni és adatokat küldeni a mérést 
+        irányító laptopnak. A myRIO-ban található gyorsulásmérő értékeiből 
+        következtethetünk az adott pillanatban a függőlegestől mért eltérésre, 
+        és ennek alapján a görbületre. Célunk tehát a következő: az axistól, 
+        mint kiindulási ponttól kezdve a távolság függvényében ábrázolni a gerinc alakját.
+    </p>
+    <p>
+        A függőleges z tengelytől való elfordulás két fő irányban mehet végbe. 
+        Az x irányú eltérések a skoliosist, vagyis az oldalirányú deformitást mutatják meg, 
+        az y irányúak pedig a görbületekben beállt változást. A görbe kirajzolásához tudnunk 
+        kell azt is, hogy éppen hol tartunk a gerincen. Ezt a feladatot korábban egy 
+        ultrahangszenzorral oldottuk meg, ami azonban megbízhatatlannak és pontatlannak bizonyult.
+    </p>
+    <p>
+        Ezeket a hibákat küszöböli ki az új megoldás, melynek működéséhez fényforrásra
+         és fotoszenzorra van szükség. Infra LED és az ehhez tartozó érzékelő használatával 
+         kerüljük el, hogy a mesterséges fény befolyásolja a mérést.
+    </p>
+    <p>
+        A távolságmérés elve a következő: egy résekkel ellátott kerék egyik oldalán a
+         LED másik oldalán pedig a szenzor helyezkedik el. A kereket forgatva a szenzor 
+         egyenlő távolságonként kap jelet. Így a kerék kerületének ismeretében következtethetünk
+         a megtett útra. A távolságmérésünk pontossága a 30°-onként elhelyezett 12 réssel 0,55
+          cm-nek adódik.
+    </p>
+    <p>
+        A megvalósításhoz saját tervezésű kerekeket nyomtattunk. A mérés pontosabbá tételéhez 
+        szükséges, hogy a réseket a két keréken felváltva érje a fény. „O”-gyűrűk felhelyezésével
+        megoldottuk, hogy a kerekek együtt forduljanak. A gyűrűk anyaga biztosítja az eszköz bőrhöz
+        való tapadását és egyben a vizsgált személy védelmét is.
+    </p>
+        <nav class="vissza">
+        <a href="#menu" >Vissza a menühöz</a>  
+    </nav>
+    </article>
+    <article id="teszt">
+    <h3>Tesztelés - pontosságmérés</h3>
+    <p>
+        A kezdeti mérésekkor azt gondoltuk, hogy a myRio gyorsulásszenzora által visszaadott
+         érték arányos a szöggel. Néhány kirívó eredmény után felmerült a gyanú, hogy ez nem 
+         így van. Ellenőrzésképpen egy tesztelést végeztünk, amelynek során egy függőleges síkú 
+         egyenes mentén toltuk végig az eszközt 10-szer 1 méteres hosszon. Mivel a mérési helyek 
+         körülbelül 0,5 cm-enként következnek, így közel 1000 mérési adathoz jutottunk. 
+         Ezeket ábrázolva beigazolódni látszott az a sejtés, hogy szinuszos kapcsolat van a 
+         mérési eredmény és a szög között. Ez összhangban van azzal, hogy a gravitációs gyorsulásnak 
+         a szenzor tengelyére eső vetületével tér vissza a program. Ennek függőleges értéke 264, amit
+          tesztelésünk is visszaadott, hiszen a 264*sin(x) függvényt közelítik meg a mérési pontok.
+    </p>
+    <p>
+        Ezek alapján a kapott szögértékeket egy függvényben ábrázoltuk annak függvényében, 
+        hogy a mérések során hányszor kaptuk ezt az értéket. Ezek alapján egy <strong>Gauss-görbét</strong> kaptunk,
+         amiből a következőket olvashatjuk ki: a szögértékeket +-1°-os hibahatáron belül kapjuk meg 
+         az esetek körülbelül 80%-ban. Ez esetünkben azt jelenti, hogy (mivel skoliosis hossza 
+         körülbelül 10 cm-re tehető), a hibahatár 0,3 cm. A mérés pontosságát egy olyan szenzorral 
+         tudnánk növelni a jövőben, amely gyorsulás- illetve giroszenzort egyaránt tartalmaz
+    </p>
+        <nav class="vissza">
+        <a href="#menu" >Vissza a menühöz</a>  
+    </nav>
+    </article>
+    <article id="meres">
+    <h3>A mérés</h3>
+    <p>
+        A mérés maga úgy zajlik, hogy a kerekek segítségével <strong>végigvezetjük</strong> az eszközt a vizsgált személy <strong>gerincén</strong>.
+    </p>
+    <p>
+        Alanyainktól kétféle testtartást kértünk: először csípőszéles paralel állásban, 
+        karjukat maguk mellett tartva, tenyerüket előrefelé fordítva húzzák ki magukat. 
+        Másodszorra pedig laza, beejtett vállú tartást vegyenek fel. Első esetben azt értük el,
+         hogy összehasonlíthatóvá vált testtartásuk, amit később az etalonok elkészítésénél és 
+         alkalmazásakor hasznosítottunk. A második tartás esetén az eszköz jobban illeszkedik a 
+         gerincre.
+    </p>
+    <p>
+        Ezután a mérést a laptopon lévő program, vagy az eszközön található gomb segítségével indíthatjuk el, így a vizsgálatot egy személy is el tudja végezni. Mérés közben magán a RIO-n fut a számítógépen előzőleg megírt és áttöltött program. Miután végzett, visszaadja a szót, hogy az eredményeket a gép ábrázolja grafikonon.
+    </p>
+    <p>
+        Az eszköz jelentős előnye, hogy sem a myRIO gyorsulásmérője, sem a fotoszenzoros távolságmérő rendszer nem igényel használat előtti kalibrálást. Így az emberi tényezőt e téren sikerült kiküszöbölnünk.
+    </p>
+    <p>
+        Eredményeinkből a Galériában mutatunk be néhányat.  A függőleges tengelyen az indulási ponttól való távolság jelenik meg. A baloldali ábra hátulnézetben, a jobboldali ábra pedig oldalnézetben <strong>mutatja a gerinc alakját</strong>, az esetleges deformitás mértékét a vízszintes tengelyen lehet leolvasni.
+    </p>
+    <p>
+        Kiértékelésekor a hátulnézeti ábrán a program felrajzol egy olyan egyenest, mely összeköti az első és utolsó mérési eredményt jelző pontot, majd megkeresi az egyenestől legtávolabb eső pontot, és kiírja ennek eltérését. Közel száz mérésünk alapján megállapíthatjuk, hogy az egészséges gerincek eltérése 0,5 cm alá esik.
+    </p>
+    <p>
+        Az oldalnézeti képhez a program a gerinchossz alapján – amely a mérésből adódik – választja ki a kontrollcsoportot.  Az így kapott adathalmaz határozza meg az általunk etalonnak nevezett sávot, amelyen belül egészségesnek tekinthetőek a görbületek. 
+    </p>
+    <p>
+        Az etalonok készítésekor olyan gyerekek eredményeit vettük alapul, akik a védőnői szűrővizsgálaton egészségesnek bizonyultak. A másik oldalról nézve viszont sok olyan esettel találkoztunk, akiket ugyan kiszűrtek, mégsem vizsgáltatták meg gerincüket. Tapasztalataink tehát alátámasztják a tényt, hogy eszközünknek valóban haszna lehet.
+    </p>
+        <nav class="vissza">
+        <a href="#menu" >Vissza a menühöz</a>  
+    </nav>
+    </article>
+    
+    <article id="prog">
+    <h3>A programkód</h3>
+    <p>A MyRio-n futó program <strong>LabView</strong> programnyelven íródott.</p>
+    <p>A program központi része a két grafikon („Hátul- és Oldalnézet”), melyeken a mérés elvégeztével ábrázolja a mérési pontokat.</p>
+    <p>
+        Az kijelzőn szöveges és grafikus visszajelzést is kap a felhasználó. Szöveges visszajelzésen információt kapunk a program jelenlegi helyzetéről, míg a zöld és piros LED-ek a program mérésének folyamatára, a pontok kiszámítását és mentését végző folyamatok működésére utalnak. A mérés indítása előtt kiválaszthatjuk a használt eszközt. Amennyiben egy eszközünk van, a program automatikusan felajánlja nekünk ezt. 
+    </p>
+    <p>
+        Ha a korábban elvégzett mérési eredményekre vagyunk kíváncsiak, a „Mérés lekérése” sorszámának beállításával és a „Betöltés” gomb megnyomásával lekérdezhetjük a myRIO memóriájából a korábbi adatokat. Ehhez később név is hozzárendelhető, de mi most csak anonim méréseket végeztünk. Ebben az esetben a grafikonokon kívül az alsó sorban található adatokat is betölti az eszköz (nem, életkor, magasság, gerinchossz, tömeg, testtömegindex, testtartás, gerincferdülés léte).
+    </p>
+    <p>
+        Új mérést kétféle módon is indíthatunk. Az egyik lehetőség a myRIO-n lévő gomb, a másik a „Mérés indítása” gomb megnyomása. Ezután a jobb felső sarokban található zöld LED, és egy, a myRIO-n lévő LED is visszajelzést ad a felhasználónak arról, hogy folyamatban van a mérés. Az indításhoz hasonlóan kétféleképpen állíthatjuk le: gombbal vagy a laptopról.
+    </p>
+    <p>
+        A program ekkor kirajzolja a gerinc alakját és azon jelzi a korábban említett alakzatokat (hátulnézet: egyenes, maximális távolság; oldalnézet: etalon). A hátulnézeten található maximális eltérést a program két tizedesjegyre kerekítve írja ki. Az etalonokat a gerinc hosszának alapján választja, amit ugyancsak megjelenít. A mérés eredményét automatikusan el is menti. Amennyiben később pontosabb keresést szeretnénk a mérések között végezni, vagy a (megerősítetten) egészséges gerinceket etalonként felhasználni, a program alsó részében található mezők kitöltésével a mért személy adatait is el tudjuk menteni.
+    </p>
+    <p>
+        Ha szükséges, a grafikonokon való nagyításra is van lehetőség. A grafikon egy területét egérrel kijelölve a program automatikus ráközelít erre a részre, A grafikonok tengelyeinek beosztását kézzel is módosíthatjuk, és a „Tengely reset” gombbal bármikor visszatérhetünk az eredeti beosztásra.
+    </p>
+    <p>
+        Amennyiben az eszközzel, a mentéssel, vagy egyéb, a felhasználón kívül álló dologgal kapcsolatban hiba lép fel, arról az „Error Out” résznél kapunk tájékoztatást, ekkor a program automatikusan leáll. Bár ezek a hibák nem jellemzőek, egy esetleges meghibásodás esetén lényeges, hogy a felhasználó önmaga is utána tudjon nézni az interneten a hiba okának.
+    </p>
+    <p>
+        Fontos hangsúlyozni, hogy a program teljes mértékben <strong>felhasználóbarát</strong>. Az egyértelmű feliratok és visszajelzések mellett szoftveresen biztosítva van, hogy a felhasználó ne tudjon a mérést megzavaró, befolyásoló lépéseket tenni (pl.: nem lehet két mérést indítani egyszerre, stb.).
+    </p>
+    <p>
+        A program belső felépítése a következő. A mérés elindítása után a szenzorok által mért adatokból kiszámolt szögértékeket ezred másodpercenként mentjük. (Erre a MyRIO által biztosított FPGA projekt miatt van lehetőség.) Folyamatosan veszi azon szögek átlagát, amelyek a fényszenzorok két jele között kerülnek beolvasásra, és ezt elmenti egy listába. A mérés befejeztével ezekből a szögekből egyesével kiszámolja először a pont magasság koordinátáját, majd az x és y irányú eltéréseket. Ezek után ábrázolja és menti a program az értékeket, a fentebb leírtak alapján.
+    </p>
+        <nav class="vissza">
+        <a href="#menu" >Vissza a menühöz</a>  
+    </nav>
+    </article>
+    </main>
+
+    
+<footer>
+    <div id="kontakt">
+        <h3>Kapcsolat</h3>
+    <ul id="kb">
+        <li>Kocsis Ábel
+            <ul>
+            <li>Eötvös Lóránd Tudományegyetem, programtervező informatikus BSc hallgató</li>
+            <li><a href="mailto:kocsis.abel.98@gmail.com">kocsis.abel.98@gmail.com</a></li>
+                
+            </ul></li>
+        <li>Bór Dorina
+            <ul><li>Budapesti Műszaki és Gazdaságtudományi Egyetem, terméktervező hallgató</li>
+            <li><a href="mailto:bordorina@gmail.com">bordorina@gmail.com</a></li>
+            </ul></li>
+    </ul>
+    </div>
+    </footer>
+</body>
+</html>

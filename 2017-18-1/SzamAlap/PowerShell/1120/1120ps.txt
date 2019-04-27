@@ -1,0 +1,71 @@
+﻿IGE -valami
+
+Windows-PowerShell ISE
+
+Write-Host :echo
+Clear-Host
+Get-Date (amúgy ezzel rögtön emghívja a tostring műveletet, ezért jelenik meg magyarul)
+Get-Childitem: alkönyvtárak listázása
+Remove-Item : törlés
+New-Item :könyvtárat v fájlt létrehozni
+Set-Location :cd a pozicíó beállításaq, ahol éppen állunk
+Get-Location: pwd, ahol éppen állunk
+Get-Alias :vannak uazok a parancsok, mint linuxon(természetesen paraméterezés és opciók nem ugyan azok)
+
+COMMON PARAMÉTEREK
+	-whatif
+	-confirm
+
+PIPE-ok:
+
+Get-Childitem|Out-file fajlnev :egy féjlba írja ki a cuccokat
+	
+Get-Childitem|Get-Member
+Get-Date|Get-Member :miket lehet vele csinálni
+Get-Childitem|Where{$_.Length -gt 100} :első rész: alelemeket vvisszaad.
+											ebből visszadja, ahol
+												$_ a listábóle egy elem
+													LENGTH: magának az objektumnak a hossza
+														nagyobb mint 100
+
+														
+Get-Process: épp futó processzek
+Get-Process|Sort-Object :betűrend alapjn rendezi ezeket
+Get-Process|Sort-Object -Property CPU :CPU használat alapjánrendezi őket
+Get-Process|Sort-Object -Property CPU|Select-Object -Property Name :itt már csak a neveiket íjra ki
+Get-Process|Sort-Object -Property CPU|Select-Object -Property Name, Cpu -Last 5 :ezzel pedig már csak utolsó 5-öt
+
+VÁLTOZÓK
+de itt minden parancsnak tűnik
+
+értékadásnál is kell dollárjel: $y=2
+$Most=Get-Date
+$Most: objektumot visszakapja, emghívja rá a tostring-et
+$Most nem ugyan az, mint Write-Host $Most
+$Most.Hour
+valahogy hozzá lehet adni egy órát, de fullra nem figyeltem 
+$tomb=1,2,3 $tomb.length
+Remove-variable
+
+VEZÉRLÉSI SZERKEZETEK
+
+if, for, while, foreach, switch: C#-os szintaktika
+
+FÜGGVÉNYEK
+csak futási időben él, ha a kék ablakot bezárjuk, akkor elveszik a fgv
+
+SZKRIPT KÉSZÍTÉS
+
+Ps1 kiterjesztés
+először: Set-executionpolicy (ezt be kell állítani, hogy legyen jogunk futtatni ezeket, amiket kézzel létrehozunk)
+$M=Read-Host :ezzel beletöltjük a paraméter az m-be
+Invoke-Item: ugyan az, mintha duplakatt egy fájlon
+
+REGISTRY
+Get-PSDrive
+hklm, hkcu
+
+BEOLVASÁS: Read-Host
+PARAMÉTEREZÉS: parma($paraize1, $paraize2)
+
+
