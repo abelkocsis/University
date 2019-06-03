@@ -1,0 +1,4 @@
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/Communication/ChatRoom.Boost/CMakeFiles/rebuild_cache.dir
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/Communication/ChatRoom.Boost/CMakeFiles/edit_cache.dir
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/Communication/ChatRoom.Boost/CMakeFiles/client.dir
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/Communication/ChatRoom.Boost/CMakeFiles/server.dir

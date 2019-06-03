@@ -1,0 +1,10 @@
+*  [Feladat és funkcionális követelmények](https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec/wikis/Feladat-és-funkcionális-követelmények)
+*  [Megvalósíthatósági elemzés](https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec/wikis/Megvalós%C3%ADthatósági-elemzés)
+*  [Fogalomtár](https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec/wikis/Fogalomtár)
+*  Nem funkcionális követelmények
+   *  [Termék követelmények](https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec/wikis/Termék-követelmények)
+   *  [Menedzselési és külső követelmények](https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec/wikis/Menedzselési-és-külső-követelmények)
+*  [Felhasználói felület modell](uploads/895e81b3353345e4e1941482ec98e068/felhasznaloi_felulet_modell__1_.pdf)
+*  [Használati esetek](uploads/bc3a29ee00950d9c41d3ccf284fdad59/SzofTech.jpg)
+*  [Felhasználói történetek](uploads/3fa50c856729e7d07d4c01e809f62d49/usercases.pdf)
+*  [Rendszer architektúra](https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec/wikis/Rendszer-architektúra)

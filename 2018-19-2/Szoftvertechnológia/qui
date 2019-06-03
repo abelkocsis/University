@@ -1,0 +1,1393 @@
+[33mcommit 54c4836317d8a30e781c82ce70db17887f050b8a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon May 13 22:30:40 2019 +0200
+
+    debuggin and updating with the boiz
+
+[33mcommit 614365aaa412a0a89f1bcd736aecf4d2f3ea4362[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Mon May 13 22:20:31 2019 +0200
+
+    debugged currentplayer with everyone
+
+[33mcommit 3b9d1b9f4c500afcf174da28045821c81e4c36ec[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon May 13 20:17:51 2019 +0200
+
+    forgot a bad line
+
+[33mcommit 40d034c1a3d39067c1711bdd6a6663ff0503f9a7[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon May 13 20:15:22 2019 +0200
+
+    debugged network and receiving msg
+
+[33mcommit d7dc2f69a745a3ee9f917c59dd3dd471c04b61e1[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon May 13 20:00:14 2019 +0200
+
+    updated receiving data from enemy
+
+[33mcommit 6931ca7df9f74fae141f3180631a01d4a164cf33[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon May 13 19:55:09 2019 +0200
+
+    differentiate whose turn it is,working accordingly
+
+[33mcommit d955eb5e4ad4e4941eca0309ddc00139b23b51d4[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon May 13 19:38:09 2019 +0200
+
+    started working on turn by turn communication
+
+[33mcommit e9b8c54766cc1660ac1f1b0745f767187762d43e[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon May 13 19:08:06 2019 +0200
+
+    added ip and port check, server and client diffi
+
+[33mcommit 71925f4bff5c1618c359909631dd1b249adbaf89[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon May 13 18:33:52 2019 +0200
+
+    settings done, input text working
+
+[33mcommit 0cd2d048fff6755ae81bce096b00da93fc099e68[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sat May 11 20:29:49 2019 +0200
+
+    tested network init, connect, send_msg
+
+[33mcommit 6d828eca7c818e123dd81720a76297f53a831475[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sat May 11 20:13:34 2019 +0200
+
+    making network, might be buggy
+
+[33mcommit b9fb0c554350257fa6dbe5725133815ec4af1dfa[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Fri May 10 23:51:05 2019 +0300
+
+    TowrsFireTest
+
+[33mcommit 45f564307c7914f5eab110fbd28afd91f56039db[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Thu May 9 12:22:35 2019 +0200
+
+    soldiersStepTest added
+
+[33mcommit 24c7d4544ae4b0f5ff34e6c972d297a4c4e3a36e[m
+Merge: 3211f54 7ce4910
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Wed May 8 23:36:14 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 3211f54e9c503888fd1e64edbd27d797fa9b4364[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Wed May 8 23:35:45 2019 +0200
+
+    lotoftests
+
+[33mcommit 7ce49105e2afd7e6201b8c2672d001c2e6605d71[m
+Merge: fae39da 74b6461
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Wed May 8 23:34:45 2019 +0200
+
+    merge
+
+[33mcommit fae39da38239b4ce5d14c12d5adf6331e3f01d65[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Wed May 8 23:17:56 2019 +0200
+
+    merge
+
+[33mcommit 0c59d147ae58ada374dd3f83512642195c403506[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Wed May 8 23:25:37 2019 +0200
+
+    asd
+
+[33mcommit fc495c0963d381f0513fc11f93ce634c88f57ec4[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Wed May 8 23:21:34 2019 +0200
+
+    add network layer class with a mock cpp as well
+
+[33mcommit 74b6461b872af3fb2bf2027201206a8aaa4c5622[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Wed May 8 23:17:56 2019 +0200
+
+    createSoldierTest added
+
+[33mcommit 0a66fba1b5c7e6cf2be700f7c373666c3ee4a65e[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Wed May 8 23:09:50 2019 +0200
+
+    createTowerTest debugged
+
+[33mcommit b7e6b67f8bfebb6d3077dcf49d60f17f0fbe84d4[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Wed May 8 22:28:39 2019 +0200
+
+    added CMAKECache to gitignore
+
+[33mcommit a0a8e53c477d1d1fcd92e978e0bd2fc14d21664e[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Wed May 8 10:01:19 2019 +0200
+
+    message length solved with VB
+
+[33mcommit 233f47960520d7e107a2506a87c3dab81eb858a0[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue May 7 22:12:01 2019 +0200
+
+    communcation works
+
+[33mcommit f81345bb5ad36ddca630212d8dfa501daf95dd5a[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue May 7 22:05:21 2019 +0200
+
+    communication: client totaly works
+
+[33mcommit c71183fd88176021c7c1592abaa0d0d2acad0376[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue May 7 20:51:12 2019 +0200
+
+    network 2.0 better and working
+
+[33mcommit b0a34cb922032510542562efc923282ec5b5221d[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue May 7 20:10:57 2019 +0200
+
+    network v1.0
+
+[33mcommit 5657c2b320e0adbb0fdfe642c33d273c0ac005e4[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue May 7 19:30:40 2019 +0200
+
+    communication v0.0
+
+[33mcommit f4551ebff8a78599870a5c1e28d803f357c2c4a6[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue May 7 12:03:22 2019 +0200
+
+    small changes
+
+[33mcommit 5106b761b9630ea71ffe929b868e20920bcf1a07[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue May 7 00:18:14 2019 +0200
+
+    check if gitlab likes the tests that pass
+
+[33mcommit 509d5e0ea201969cfa8dc11971c6947640aeed10[m[33m ([m[1;31morigin/ci-fixes[m[33m)[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Mon May 6 23:53:06 2019 +0200
+
+    try hardererer
+
+[33mcommit 9c78e249629efad7867249b8a707ba03adde4440[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Mon May 6 23:49:32 2019 +0200
+
+    try harderer
+
+[33mcommit 175bf8edb758c81486dc08816357d9c04aebef08[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Mon May 6 23:46:33 2019 +0200
+
+    try harder
+
+[33mcommit f14124866449b35a4bd457ca99bb6e67a5d21c18[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Mon May 6 23:44:47 2019 +0200
+
+    try
+
+[33mcommit 790127fedff67a7225e65dc811e819e5ff6cd311[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Mon May 6 23:42:00 2019 +0200
+
+    bugfix
+
+[33mcommit ba0fd35fe54f4b5821fdc830de6e75040c4fcf19[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Mon May 6 23:38:36 2019 +0200
+
+    add cmake
+
+[33mcommit 16dfb927d1895daa934caccbe2098c98898e4c59[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Mon May 6 23:31:20 2019 +0200
+
+    configure ci
+
+[33mcommit 0ccf217375cb4d03cd494bb507bb5c79e40df714[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Mon May 6 23:22:36 2019 +0200
+
+    get cmake to work
+
+[33mcommit 2ab4b87d903867aba551b6e140b78730c058408e[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Thu May 2 00:50:26 2019 +0200
+
+    added pause option, updated things accordingly
+
+[33mcommit 1929bcc745cd96e75edfc2bdc724b691d2b54756[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Wed May 1 20:47:01 2019 +0200
+
+    button texture updated, buttons updated
+
+[33mcommit 5d7f2a3e072bfd41238216cc493c2fcd9d12799a[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 17:42:40 2019 +0200
+
+    added extra buttons, updated button rendering fun
+
+[33mcommit c4f822c2a27ce53fc6b2979139d8d7715c038df6[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 16:49:26 2019 +0200
+
+    buttons added, button rendering function updated
+
+[33mcommit 149d76dc80abd1ab1f22b42b521064e32ca4dbab[m
+Merge: 0c218cb 5a9273e
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 13:55:36 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 0c218cb72fda0bcc1118f515ce015ec4d4648ec6[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 13:55:13 2019 +0200
+
+    added gameover button texture
+
+[33mcommit 5a9273e0ae076867d5357814ed9aaf226b0a74cb[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 30 13:32:18 2019 +0200
+
+    createTowerTest
+
+[33mcommit a7e43459132fd42a6b347370f53a15f9f5cc73d7[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 30 13:06:38 2019 +0200
+
+    checkTowerTest
+
+[33mcommit f6d53c644f833c0b7200cabc70eb51db8386e152[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 13:05:42 2019 +0200
+
+    fixed quitting with button
+
+[33mcommit 60562bf9f27879426f0f969357f2da84ac604d05[m
+Merge: ed4b2eb f002595
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 12:59:31 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit ed4b2ebd7d3b53bfc0e996ab3f1b1f42c3b03bbc[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 12:57:13 2019 +0200
+
+    made Menu; button push detection
+
+[33mcommit f002595453207329430d15ad3522e0a462bc1ade[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 30 12:56:13 2019 +0200
+
+    calcRoutesTest
+
+[33mcommit 3f19de54c6185a20bf2a9c52b1cc35a68fbbd7b9[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 12:15:14 2019 +0200
+
+    menu buttons done!
+
+[33mcommit 8764156d131c30b38c1efd7ca76af66a112e652b[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 30 12:11:07 2019 +0200
+
+    fixed castle positions solved
+
+[33mcommit 61a1666ad0275f5324ddd20dbecccfe5a5aaac88[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 30 11:49:02 2019 +0200
+
+    hungarian variables renamed
+
+[33mcommit a254a08e82291817a8cc982583c873d31c58de91[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 30 11:46:40 2019 +0200
+
+    max value debugged
+
+[33mcommit dba238cccec0949bfa5eecb82e57d5ddebc9d85b[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 30 11:37:52 2019 +0200
+
+    RoundTest, PassTest
+
+[33mcommit bc619987a6b8d0b5de91fade581009f1b57a917b[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 30 11:27:20 2019 +0200
+
+    mapFromString debugged
+
+[33mcommit a4e1cab2026acc3b57821b87fc874d0985feb1fd[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 30 11:00:15 2019 +0200
+
+    test debugged
+
+[33mcommit 06bf771ce70ed93415b036e6b63cc842cde35018[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 10:25:59 2019 +0200
+
+    nothing special, just minor updates
+
+[33mcommit 7769c12370d51cc9a00f618abca4dad2d829d438[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 09:55:16 2019 +0200
+
+    added new shader program and vcxproj files
+
+[33mcommit 9e7e034fa3f9e909a8610f6a195fbdace1750f70[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 30 09:32:10 2019 +0200
+
+    worked on buttons and menu layout
+
+[33mcommit c1b5ecc1dbef2887f855774d6252505bc5f33705[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 29 23:24:01 2019 +0200
+
+    updated button rendering
+
+[33mcommit 6476d5992af5d694900d8b486ff21b061c32ed45[m
+Merge: fb7f6bb 6618a5f
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 29 22:31:09 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit fb7f6bb096e65a6b4bc3d25f350f95b92001f408[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 29 22:30:55 2019 +0200
+
+    added untracked dll files
+
+[33mcommit 6618a5f3101496a5d73024fa63c222512e5fcbea[m
+Merge: 1217265 6d2675c
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 29 21:16:10 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 12172657ee27db95b3b415a6c73b8cc5cffa8e65[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 29 21:14:23 2019 +0200
+
+    added cube object, might not compile
+
+[33mcommit 6d2675cbcd35698e55566c1f9ba26dbe84ba1cec[m
+Merge: 808476d 2d90c49
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sun Apr 28 20:16:16 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 808476d2d5c977996c9847438222db4ff746ab63[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sun Apr 28 20:16:13 2019 +0200
+
+    work on stringing
+
+[33mcommit 2d90c49e0cea1ca9c4ef3b50f959623585e8385c[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Sun Apr 28 19:13:14 2019 +0200
+
+    CastlePlaceInitTest
+
+[33mcommit 8884d0e7708cffada0d25c8201ae814f057ff05c[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Sun Apr 28 19:09:48 2019 +0200
+
+    playerInitTest
+
+[33mcommit 94d2f34335fb4f7b60027fcda1973d89af2a2e76[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Sun Apr 28 19:03:36 2019 +0200
+
+    MapInitTest
+
+[33mcommit 4ad0a4c567c839c51b5b26f96cb35de5a6e17a2d[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Sun Apr 28 19:00:40 2019 +0200
+
+    TestInit v1
+
+[33mcommit b8473dd3fbd88066f76fbf7732864649c3739ca3[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 17:50:33 2019 +0200
+
+    fixed when soldier can step into its own base
+
+[33mcommit 23f95f111a89effb4b979c8ac272325371abd8e3[m
+Merge: ecf9de2 bc183f0
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 17:44:19 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit ecf9de21f802e0b7f784b3841cef483a63afaac2[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 17:43:01 2019 +0200
+
+    updated some things
+
+[33mcommit bc183f0be4dd3e94bc847ded84b2fc90fb55e3cf[m
+Merge: 048b72e aae91ec
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Sun Apr 28 17:32:22 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 048b72eb8868530a27f49fe6accbc26415e266a2[m
+Author: fgsdv2 <fgsdv2@inf.elte.hu>
+Date:   Sun Apr 28 17:31:50 2019 +0200
+
+    gitignore update
+
+[33mcommit aae91ec07682ecaa688fd3e13ab34819135706b3[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 17:18:27 2019 +0200
+
+    fixed GUI and making field ready to display ranges
+
+[33mcommit fc7f8d4e468caf1df9032f4f1aafb6c734eca9f0[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 17:17:21 2019 +0200
+
+    fixed when game passes instead of making soldier
+
+[33mcommit 4a7467a90904f9a04e7974d7c6b3b49d361be56b[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 16:49:39 2019 +0200
+
+    added individual shader program to field
+
+[33mcommit 38e769df064d7ef39846945af0c77fa361e75717[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 16:37:36 2019 +0200
+
+    fixed new soldier change status around base
+
+[33mcommit 93a6ec3397ae9d226acf1c16e7a68edfac874c79[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 14:53:39 2019 +0200
+
+    added build range
+
+[33mcommit 6e070028066d38073927b0f8396f0e1760c34e90[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 13:33:43 2019 +0200
+
+    started coding building range
+
+[33mcommit 31a5409a8989d4fe8c2aeae06fe02b9068c960e4[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Sun Apr 28 13:27:56 2019 +0200
+
+    added dynamic library files (dlls)
+
+[33mcommit 2527c539c1fce4562d26ae844480275460df3b5c[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 18:01:57 2019 +0200
+
+    last one i promise
+
+[33mcommit 7bef6c90ec725f907223eb2980d3ec55adf6ca5e[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 17:54:06 2019 +0200
+
+    sorry for all the commits
+
+[33mcommit 6a908742c2b16fa0777312712772bb2b64845440[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 17:50:50 2019 +0200
+
+    asadasd
+
+[33mcommit 06a01c2a215ec4b435272d46a2abe42807361c13[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 17:41:17 2019 +0200
+
+    check if ci has g++
+
+[33mcommit 4bc785fc4948dcefa269485042700c03445c6e1f[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 17:39:21 2019 +0200
+
+    check if ci has make or cmake
+
+[33mcommit 310e05a0e1387e9e9fc2df7c43fb7f8b9764e302[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 17:36:48 2019 +0200
+
+    check if ci has msbuild
+
+[33mcommit b9a4e1432730fda81bfd14996068002508807aef[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 17:34:38 2019 +0200
+
+    add ci yaml file
+
+[33mcommit b071c7382a85fdbb5a0089a7751ca70e22584227[m
+Merge: 9dd97f7 0e0e915
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 17:20:27 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 9dd97f771b5e6fce5e9c929aab0c4a1de3b28a16[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 17:20:19 2019 +0200
+
+    player from string + test
+
+[33mcommit 0e0e915c0a0a7eccc44a96a652263e8b98bb42a8[m
+Merge: 005ffd0 7bd4986
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 17:04:42 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teaminit memoryleak solved
+
+[33mcommit 005ffd01a86370ce2033c5accbcd6328b8769082[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 17:04:31 2019 +0200
+
+    init() memoryleak solved
+
+[33mcommit 7bd49869782d979c0bbe094ea356efc144b48a84[m
+Merge: fef589c e1064ec
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 16:59:45 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit fef589c98a000c87d3d004b9b741c00b16720fb0[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 16:59:37 2019 +0200
+
+    player tostroing test
+
+[33mcommit e1064ec80daa1e04079e1a257443b8997f1e1d9a[m
+Merge: b790758 7dce3ff
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 16:51:12 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit b7907588afae204787245281cd945406c3b72dcb[m
+Merge: f0faf72 504ca36
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 16:50:49 2019 +0200
+
+    mapToString v1, mapFromString v1
+
+[33mcommit 7dce3ffbf00b9a276e53c57fe80485a8083eb616[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 16:50:03 2019 +0200
+
+    player tostring
+
+[33mcommit f0faf72bb8b88478773ad015aa29f7e92e0ba069[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 16:49:46 2019 +0200
+
+    mapToString v1, mapFromString v1
+
+[33mcommit 504ca365c114df36737db52d8aa8cb222cb715ee[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 16:32:40 2019 +0200
+
+    add test
+
+[33mcommit 2ad06de9a5a61f507979abc10c47019ecd8f84d3[m
+Merge: 831fac3 71fc6b9
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 16:30:28 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 71fc6b94e68d68517baa01995a66936f75fe5d24[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 16:30:15 2019 +0200
+
+    added test cases to Field(String)
+
+[33mcommit 831fac3afaddad9ee183d5f938b90d2872ce526a[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 16:30:12 2019 +0200
+
+    (de)serialize tower + tests
+
+[33mcommit e6b3773426b973f854fa57ae57cda726c80075de[m
+Merge: 678de3d 50feab3
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 16:21:00 2019 +0200
+
+                    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 50feab39ade3741103009e4f844cba766367b8b7[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 16:20:41 2019 +0200
+
+    add test
+
+[33mcommit 678de3d52cddb06a667ed7e087f3a4732d411494[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 16:20:39 2019 +0200
+
+    Structures::Field:: toString v4, fromString v3
+
+[33mcommit c5be4c80dd0caba03ac20b22243e0c9acec6f13f[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 16:17:31 2019 +0200
+
+    soldier from string
+
+[33mcommit 6e34bf44fb383ed8fa8f62dc432ef64fc4242f04[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 16:13:40 2019 +0200
+
+    Structures::Field::toString v3.2
+
+[33mcommit d6b7aed434a4e7e590052852a04ee379732b2660[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 16:13:13 2019 +0200
+
+    Structures::Field::toString v3.1
+
+[33mcommit 8a2d8fd94a2915d399f8207244f01e55b9251004[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 16:11:03 2019 +0200
+
+    Structures::Field::toString v3
+
+[33mcommit 983287f6729753b5e2bcde65c211fe16b43397c9[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 15:47:54 2019 +0200
+
+    Structures is mine again
+
+[33mcommit 7e1e4227bb9a2a139577a3947ae42ff6f9f78fa2[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 15:46:09 2019 +0200
+
+    fix
+
+[33mcommit 8cf5e3d46dc238246b708aa1d3af4979ec45ada4[m
+Merge: 7b0adc0 cb88a59
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 15:37:51 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit cb88a59026441e14d73e92b5c4e56261d5cefd2f[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 15:37:25 2019 +0200
+
+    Structures::fromString v1.1
+
+[33mcommit 3c1f6eb59cacba7ede9c56048b69a13122f0824c[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 15:36:44 2019 +0200
+
+    Structures::fromString v1
+
+[33mcommit 7b0adc0540e8f22c3bbf564f5fd38f4d631292bc[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 15:35:42 2019 +0200
+
+    addtest
+
+[33mcommit c3a37fd97532b4e79c137115f796405d4962d862[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 15:23:14 2019 +0200
+
+    change of plans: revert to a single model
+
+[33mcommit 9b14b2986b422fb2a138014594dc7ccf5c732bdf[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 15:20:04 2019 +0200
+
+    Structures::toString() v2
+
+[33mcommit f7e9c0adbe274019254fdaa3511fb832f8207650[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 15:05:32 2019 +0200
+
+    Structues::toString v1
+
+[33mcommit 20d1e6bb0b40f14cf07ff66aeaee1be4c5200740[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 15:04:00 2019 +0200
+
+    setup parent class (GameModelInterface), do necessary refactorings
+
+[33mcommit a59fde55388b759d5f4d67d8b7da940ad59b177b[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 14:47:58 2019 +0200
+
+    refactoring / remove currentPlayer
+
+[33mcommit a76fd2dcfce92cf87f9d0a8584fa29e55147588d[m
+Merge: 26f03e6 5df02b3
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 14:23:30 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 26f03e6c95a21b921d6236f88930fa33dbc4687f[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Sat Apr 27 14:23:12 2019 +0200
+
+    deleted vcxproj
+
+[33mcommit 5df02b34cdf59c5b2496495c51b5901997d071ff[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 14:20:24 2019 +0200
+
+    remove vcxproj from repo
+
+[33mcommit 69436b12563a4ffeca6a011868587bc6942d608b[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 27 14:06:00 2019 +0200
+
+    vcxproj magic
+
+[33mcommit 1ca36c3531ada9a4282585b196dea91427d82f2f[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Thu Apr 25 16:06:47 2019 +0200
+
+    amend
+
+[33mcommit f9e17de9537d21e025078c9dbb8c20c6ea65ea44[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Thu Apr 25 16:03:38 2019 +0200
+
+    setup test
+
+[33mcommit 7fe103c0484a512bb936fd1706a5406d720f3e76[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Fri Apr 19 13:05:59 2019 +0200
+
+    try tests
+
+[33mcommit a05a96765364a5901aafe9ed6491f42a56ba6002[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Fri Apr 19 12:44:45 2019 +0200
+
+    Create test project
+
+[33mcommit e911fd6757761b292eedeb87827c83ca1cf860dd[m
+Merge: 69d843b b8e13f4
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Fri Apr 19 11:24:43 2019 +0200
+
+    Merge branch 'fixview'
+
+[33mcommit b8e13f4b1fe57515e7339b26fa4068b9d07cec59[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 14:00:17 2019 +0200
+
+    most finalest newest final version
+
+[33mcommit ae84366df15f147e422f3b14480e75917c2874b8[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 13:48:58 2019 +0200
+
+    revert gamemodel to good version
+
+[33mcommit b2ae89eb93cf8bdd8a0bd9e26c25941be9d746ae[m
+Merge: d5d8894 741db29
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 13:45:12 2019 +0200
+
+    Merge branch 'fixview' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec into fixview
+
+[33mcommit d5d8894e23206e6f0205ee10b6d4884a559aba37[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 13:44:32 2019 +0200
+
+    fix checktower - really final final version of model
+
+[33mcommit 741db291d31774240d6a272fa9cf3ae82d71f11b[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 13:39:02 2019 +0200
+
+    updated gui
+
+[33mcommit 2ba351acaf39d8f479677aaf400c5e3f91197403[m
+Merge: bd76e35 34dc9eb
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 13:18:44 2019 +0200
+
+    Merge branch 'fixview' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec into fixview
+
+[33mcommit 34dc9eb1df71af72168a0d5ed2749946f8e4d2ef[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 13:16:39 2019 +0200
+
+    updated gui
+
+[33mcommit bd76e35f160e37b9a250d67f38b2fb67362248ad[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 13:14:57 2019 +0200
+
+    bugfix
+
+[33mcommit 0380b7bbe58bdcad9f48f67e604f99f289593b8b[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 13:05:24 2019 +0200
+
+    deleted old files
+
+[33mcommit f4c60e0ad55405a37acd1868a917a970b8184f35[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 13:04:13 2019 +0200
+
+    gui updated
+
+[33mcommit 69d843bc56d25bc57e6cd39c80b94b21beab0e5a[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 16 12:52:20 2019 +0200
+
+    Update README.md
+
+[33mcommit 3cbfbfa8898bf5d9c883c6085c99a91a5f7034f4[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 16 12:46:57 2019 +0200
+
+    Update README.md
+
+[33mcommit dfe3e3da42777e8272d9fe426ead70cf9dc3459f[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 16 12:42:21 2019 +0200
+
+    Update README.md
+
+[33mcommit c77d1bb399316c2831e3a12217c5617353c3c6f8[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 16 12:41:37 2019 +0200
+
+    Update README.md
+
+[33mcommit 86bf9e55ed34a60a8ec1ca8145c648e035f72271[m
+Merge: e0f416f 0ff4eba
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 12:33:56 2019 +0200
+
+    Merge branch 'fixview' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec into fixview
+
+[33mcommit e0f416fec65107814720e8cd3b3ea0afd274d95e[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 12:33:22 2019 +0200
+
+    added imgui
+
+[33mcommit 9cedbd1c963e9fe9e21882858ef2fd68f82ae683[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 16 12:32:19 2019 +0200
+
+    Update README.md
+
+[33mcommit 5500b225cb7226e6710e6f2cdfaebcda9599923c[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 16 12:32:07 2019 +0200
+
+    Update README.md
+
+[33mcommit 0ff4eba3ab374d6fdd77efb537beb7aa4aa4a70e[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 12:31:52 2019 +0200
+
+    add getmoney
+
+[33mcommit 5eacdba4c9bf02e0a45b10ba1a81ed9a4e88ad91[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 16 12:27:29 2019 +0200
+
+    Update README.md
+
+[33mcommit 99f0ca2dcbe6dac707cb6b5eeb6b627aaaad0244[m
+Author: Kocsis Ábel <fgsdv2@inf.elte.hu>
+Date:   Tue Apr 16 12:27:08 2019 +0200
+
+    Update README.md
+
+[33mcommit f5919820e92b36826ea9f913d448c820651adea4[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 12:25:43 2019 +0200
+
+    add isGameOver
+
+[33mcommit 6d5ab64a178d5b6fdad035bb5106e2180b1b292e[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 12:22:08 2019 +0200
+
+    add getCurrentPlayer
+
+[33mcommit df6106776326366bcfd6f7aac45f8fd9e423d611[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 12:18:54 2019 +0200
+
+    manual merge
+
+[33mcommit 6d214150ed5cc6440450466314f7cad71ec18727[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 12:10:44 2019 +0200
+
+    added castle1 cast
+
+[33mcommit 0e5aef18737aa9ad26f4e8f3b295d9ac2c84f585[m
+Merge: ea82b32 62749ab
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 11:58:06 2019 +0200
+
+    merge
+
+[33mcommit 62749abd0076bd4daac2da75d39aecfb2aeec380[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 11:53:25 2019 +0200
+
+    bugfix
+
+[33mcommit ea82b32ce53954f2827e8389bf15f5c95fd3c4b2[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 11:46:06 2019 +0200
+
+    project descriptor updated
+
+[33mcommit 0a4fb574b618a33aca78f23ec7570e53185c78aa[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 11:38:29 2019 +0200
+
+    checktower - also between castles, with no soldiers (very final version)
+
+[33mcommit b26a8b7d7cb2c0af58abe0b6946dc9ed20bebdef[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 11:29:00 2019 +0200
+
+    updated project descriptor
+
+[33mcommit fd85c6f5ef07517e81f21e05a652b5012b2291ed[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 11:19:14 2019 +0200
+
+    project descriptors fixed
+
+[33mcommit ef903ae69f02150ecd789f1cd2d49898b9320e0c[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 11:09:49 2019 +0200
+
+    fix 2 soldiers on same field bug (even finaler version)
+
+[33mcommit 2d17b8745e79525a7c2cd0e762bca401b952c5a7[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 10:59:17 2019 +0200
+
+    changed gitignore
+
+[33mcommit 3fe13209cbf600c80e03f340d8b1cd2ed644a147[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 10:58:51 2019 +0200
+
+    fix calcRoutes (most finalest version)
+
+[33mcommit 847f4190d2de2f2546c552417cb00bc46c570585[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 10:57:35 2019 +0200
+
+    deleting view
+
+[33mcommit 656c656e483860575e413d6b32447800c88029bd[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 10:33:03 2019 +0200
+
+    gitignore changed
+
+[33mcommit 923d4632865a8577ed39e69c9928382c8e636461[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 10:19:13 2019 +0200
+
+    bug fix
+
+[33mcommit e53021fb5c46a11b7283397688ca771867b3c6a1[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 09:57:04 2019 +0200
+
+    added Colors to Objects (to diff player)
+
+[33mcommit 3dba5b34cb0efde0b61940d56d176c4157b05cf6[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 09:45:54 2019 +0200
+
+    merged and updated with master
+
+[33mcommit fcc5d2216dae83cc55bf7e6f9bc6c9b50e4f20e8[m
+Merge: eeb4990 bcd1deb
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 09:35:56 2019 +0200
+
+    Merge branch 'master' into fixview
+
+[33mcommit eeb499040aec4feda50eba14d9b52dce43b7af6b[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 09:26:26 2019 +0200
+
+    checking if TowerBuilding is valid added
+
+[33mcommit e453cde7965360cf81604f5644a86a04673e50f7[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 08:08:29 2019 +0200
+
+    added keys 0,1,2,3,4,5,6 detections
+
+[33mcommit 56f7c9e30bebf8c3756728f813dc918a8c8dbf1e[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 07:47:34 2019 +0200
+
+    adding include files
+
+[33mcommit 12d5568fe5789378931cae455b93f421c484deb0[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 07:38:49 2019 +0200
+
+    repairing oglpack
+
+[33mcommit 40779d4895b5bf995638e0e3e2093e66d887167f[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Tue Apr 16 07:36:10 2019 +0200
+
+    changed gitignore, adding .obj files
+
+[33mcommit bcd1deb329cdf8d809fc9ced1cb78b30773966d2[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 03:58:07 2019 +0200
+
+    finaler version
+
+[33mcommit 4e59e8caaf4184a8c93772c80fa0e26d1533f12f[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 03:47:23 2019 +0200
+
+    final version
+
+[33mcommit 19c1894bd74f3da1c2ff60df2f32355446df470d[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 03:36:25 2019 +0200
+
+    debug towersfire
+
+[33mcommit 22e9949f1fbd9b7c3864e2bf62201ba753e452b0[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 16 02:28:39 2019 +0200
+
+    soldier step debug
+
+[33mcommit d1ff35b7f9ff354148dc1175a7b0222312575c29[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 21:52:40 2019 +0200
+
+    updating project descriptor
+
+[33mcommit f1d9d5118a61dafadca89a505d17800a81eabc8c[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 19:55:55 2019 +0200
+
+    some keys
+
+[33mcommit d4fc1da92ba31aea1e866858faa5e5739dc812fd[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 19:08:32 2019 +0200
+
+    fixed certain bugs
+
+[33mcommit 2235530839574d8e5fc8f886b0bf6a818dee89fb[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 18:30:00 2019 +0200
+
+    merge conflicts edited
+
+[33mcommit b68a9f1a2ab4f0c1d58d248ffd2db8558fd12360[m
+Merge: bc0428e b340ae5
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 18:25:13 2019 +0200
+
+    Merge branch 'master' into fixview
+
+[33mcommit bc0428effaa9b658d7cefeb3595fd4c83012115f[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 18:17:44 2019 +0200
+
+    nothin new
+
+[33mcommit b4b0386a56b9e7e621037a0492fa0f467afcddbe[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 17:59:48 2019 +0200
+
+    fajlok osszehozasa
+
+[33mcommit b340ae5baf5e8b8c3b85de5d097230d264620932[m
+Author: Varga Balázs <wimcmb@INF.ELTE.HU>
+Date:   Mon Apr 15 17:57:40 2019 +0200
+
+    fixes
+
+[33mcommit 5cdad8ed6be6a6b42f82fa2ddae03a5e8f8113bc[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 17:47:20 2019 +0200
+
+    updating Project descriptor and Main.cpp
+
+[33mcommit 7a2f273c1c9f94bf5c34a7b3afa32dcca10b6b31[m
+Author: Varga Balázs <wimcmb@INF.ELTE.HU>
+Date:   Mon Apr 15 17:41:56 2019 +0200
+
+    add print
+
+[33mcommit 01e24942775b25e52dced2d956e214729d913234[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 17:33:21 2019 +0200
+
+    updating project files
+
+[33mcommit fb740633d0b3ce0c0bb91ddc5d53983730d3888e[m
+Author: Varga Balázs <wimcmb@INF.ELTE.HU>
+Date:   Mon Apr 15 17:26:26 2019 +0200
+
+    fix
+
+[33mcommit bc6ee876b69ca4bed551dca08672e147d8746238[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 17:23:14 2019 +0200
+
+    adding extra files
+
+[33mcommit e77c2db6cd06868ede85480fbb7ed570b4ef01d1[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 17:22:24 2019 +0200
+
+    adding OGLPack
+
+[33mcommit 1b85588e1813f0168b8de3fbc515b5c8047eadb9[m
+Author: kvvz7u <kvvz7u@inf.elte.hu>
+Date:   Mon Apr 15 17:19:40 2019 +0200
+
+    adding files
+
+[33mcommit 811e36679e730a081ab2b0b495d399c4226fec03[m
+Author: Varga Balázs <wimcmb@INF.ELTE.HU>
+Date:   Mon Apr 15 16:59:26 2019 +0200
+
+    soldier kill logic
+
+[33mcommit aa8f4e29aaefb4cb10ece79b4de93d5c8b22d343[m
+Author: Varga Balázs <wimcmb@INF.ELTE.HU>
+Date:   Mon Apr 15 16:46:34 2019 +0200
+
+    make it compile
+
+[33mcommit 112026ad20d41c35317a15452fa389f1d9ef5c33[m
+Author: Varga Balázs <wimcmb@INF.ELTE.HU>
+Date:   Mon Apr 15 16:40:07 2019 +0200
+
+    work on it
+
+[33mcommit 222dfe2712ecb702b7cf0638d74b8d6e8146311b[m
+Author: Varga Balázs <wimcmb@INF.ELTE.HU>
+Date:   Mon Apr 15 12:14:45 2019 +0200
+
+    delete temp file, create branch
+
+[33mcommit ad1e175c4db8162b2a9077455017b7c2f5840c82[m
+Author: Varga Balázs <wimcmb@INF.ELTE.HU>
+Date:   Mon Apr 15 12:07:56 2019 +0200
+
+    test
+
+[33mcommit 36606247657210f105fed1360ffb5e8c40ab7136[m
+Author: Krupinszki Balázs <kvvz7u@INF.ELTE.HU>
+Date:   Mon Apr 15 11:30:22 2019 +0200
+
+    fixed seg_fault error
+
+[33mcommit b0e10cf426d59b875aee59c203b12dbf61d31d40[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sun Apr 14 18:10:40 2019 +0200
+
+    make it compile
+
+[33mcommit 52917ad1baf68e23216cf5aae23b5151712017cb[m[33m ([m[1;31morigin/Krupi_dev[m[33m)[m
+Merge: 6d4e62f 28b01d5
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 13 17:31:20 2019 +0200
+
+    Merge branch 'master' of https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec
+
+[33mcommit 6d4e62f49209f19dbf640ea08e9f55c444775ee9[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 13 17:31:12 2019 +0200
+
+    add units to map when creating them@
+
+[33mcommit 28b01d5e40926481a24bd51e01c56b558e805407[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Sat Apr 13 17:11:09 2019 +0200
+
+    almostallready
+
+[33mcommit a0d9c51171007fa97c5da8f12cb1cfa651eb63a5[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Sat Apr 13 16:48:06 2019 +0200
+
+    dijkstraupdate
+
+[33mcommit 42c9593929b7eb7f15c6d9b4c069d3683331930d[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Sat Apr 13 09:49:49 2019 +0200
+
+    init()
+
+[33mcommit 80c4f5e03a1009361004db2a9b0a012893f9bea2[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Sat Apr 13 09:46:12 2019 +0200
+
+    init()
+
+[33mcommit d8b72688013b5a87613fc77aba08917285e8c260[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Sat Apr 13 09:30:27 2019 +0200
+
+    try
+
+[33mcommit a886013d445a709a8f8f80bbd3e3dfe3eb374c04[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Fri Apr 12 15:33:00 2019 +0200
+
+    chackCastles, checkTower kesz
+
+[33mcommit 55d98f09b0fd3a6fe94b16ecc5bb468d52c44f3d[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 9 15:15:28 2019 +0200
+
+    Make it work!!
+
+[33mcommit a4785eeaf0e5dd9af5bd5c87ff9c6e875b3fe408[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue Apr 9 14:43:34 2019 +0200
+
+    sd
+
+[33mcommit 37058b5ac09da6b085192674ceaa00825a8c4804[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 9 14:31:47 2019 +0200
+
+    smallfix
+
+[33mcommit 83fe4fa61eeff02c4af43e7fdda5d8868a020169[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue Apr 9 14:25:15 2019 +0200
+
+    NewField struct
+
+[33mcommit 51688ce2903752f422ce2ddc8841d32e78ccbcc3[m[33m ([m[1;31morigin/abel/proba[m[33m)[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue Apr 9 14:12:48 2019 +0200
+
+    proba2
+
+[33mcommit f9351764216e57ecf0b9bb9d3848ae9f07b4a7bc[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue Apr 9 13:16:42 2019 +0200
+
+    GameManager::soldiersStep() megvan
+
+[33mcommit 612c5f65bc358cb751285a343eafc1085967699f[m
+Author: abelkocsis <kocsis.abel.98@gmail.com>
+Date:   Tue Apr 9 12:50:35 2019 +0200
+
+    meg nem csinaltam semmit
+
+[33mcommit 7373ffb7350ff1e0eae0f750d131e607ab4a93ea[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 9 11:04:44 2019 +0200
+
+    restructure to make it compile
+
+[33mcommit a2c89113e198bf7414118e78fa4dfb140bd8fd4f[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 9 10:55:48 2019 +0200
+
+    add random selection to tower hit
+
+[33mcommit 3ba7b9c2030a06a2d5d30770e023f3acddfedb8b[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 9 10:49:18 2019 +0200
+
+    implement towers firing
+
+[33mcommit 74a87a8cdcc1d967f5263e1c3777b72f7d3c4b23[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 9 10:35:27 2019 +0200
+
+    implement createTower, createSoldier
+
+[33mcommit 40e98eb35a06aa7571f6c4f6a5cf6cdd8de16722[m[33m ([m[1;31morigin/vb/models[m[33m)[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Tue Apr 9 10:22:29 2019 +0200
+
+    add calcRoute and map functionality
+
+[33mcommit 3da193bc1cac88e48a06e0d80a9f251d1a5e8561[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sun Apr 7 22:22:32 2019 +0200
+
+    write some basic methods
+
+[33mcommit 7005be29821f3ba86cb01109c018d35c4c03fb8f[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sun Apr 7 19:56:16 2019 +0200
+
+    create branch
+
+[33mcommit 960862df82bc65f228366c03817af329bca61b16[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 6 11:02:22 2019 +0200
+
+    add classes
+
+[33mcommit c2db15bbbd6dec226535b58fb3e25270be50d5cc[m
+Author: Balazs Varga <thebalu1@gmail.com>
+Date:   Sat Apr 6 10:52:51 2019 +0200
+
+    create vs project and gitignore
+
+[33mcommit bd4c99ad18fcac5bd25ecbdb4b120e36800eed0d[m
+Author: Varga Balázs <wimcmb@inf.elte.hu>
+Date:   Tue Mar 5 10:24:15 2019 +0000
+
+    Update README.md
+
+[33mcommit 62cdba803a40e06d6e35763e132315d50d6928e5[m
+Author: Cserép Máté <mcserep@inf.elte.hu>
+Date:   Thu Feb 21 16:44:33 2019 +0000
+
+    Initial commit

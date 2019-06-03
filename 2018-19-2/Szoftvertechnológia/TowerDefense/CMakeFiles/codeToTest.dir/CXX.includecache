@@ -1,0 +1,116 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/GameModel.cpp
+pch.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/pch.h
+GameModel.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/GameModel.h
+sstream
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/sstream
+limits
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/GameModel.h
+Player.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Player.h
+vector
+-
+iostream
+-
+cstdlib
+-
+ctime
+-
+network.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/network.h
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Player.cpp
+pch.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/pch.h
+Player.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Player.h
+string
+-
+sstream
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Player.h
+Tower.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Tower.h
+Soldier.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Soldier.h
+string
+-
+vector
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Soldier.cpp
+pch.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/pch.h
+Soldier.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Soldier.h
+string
+-
+sstream
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Soldier.h
+Structures.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Structures.h
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Structures.cpp
+pch.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/pch.h
+Structures.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Structures.h
+sstream
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Structures.h
+cmath
+-
+cstdlib
+-
+ctime
+-
+iostream
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Tower.cpp
+pch.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/pch.h
+Tower.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Tower.h
+Soldier.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Soldier.h
+string
+-
+sstream
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Tower.h
+Structures.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Structures.h
+Soldier.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/Soldier.h
+vector
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/mock_network.cpp
+network.h
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/network.h
+iostream
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/network.h
+string
+-
+
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/TowerDefense/pch.h
+

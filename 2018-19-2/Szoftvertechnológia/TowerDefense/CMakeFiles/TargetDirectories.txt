@@ -1,0 +1,4 @@
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/CMakeFiles/rebuild_cache.dir
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/CMakeFiles/edit_cache.dir
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/CMakeFiles/runTests.dir
+/Users/kocsisabel/OneDrive - Eotvos Lorand Tudomanyegyetem/Egyetem/2018-19-2/Szoftech/teamec/TowerDefense/CMakeFiles/codeToTest.dir

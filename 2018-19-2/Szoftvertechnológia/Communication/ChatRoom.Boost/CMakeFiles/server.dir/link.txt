@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -O2 -pedantic -Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/server.dir/server.cpp.o  -o server /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_thread-mt.dylib /usr/local/lib/libboost_chrono-mt.dylib /usr/local/lib/libboost_date_time-mt.dylib /usr/local/lib/libboost_atomic-mt.dylib 
