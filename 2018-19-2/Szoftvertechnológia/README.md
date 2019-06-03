@@ -2,9 +2,9 @@
 
 # TeamEC Tower defense játék
 
-[Specifikáció és követelményelemzés](https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec/wikis/Specifik%C3%A1ci%C3%B3-%C3%A9s-k%C3%B6vetelm%C3%A9nymenedzsment)
+[Specifikáció és követelményelemzés](https://github.com/abelkocsis/University/blob/master/2018-19-2/Szoftvertechnológia/wikis/SpecifikacioEsKovetelmenymenedzsment.md)
 
-[Megoldási terv](https://szofttech.inf.elte.hu/szt-2018192/group-01/teamec/wikis/Megoldási-terv)
+[Megoldási terv](https://github.com/abelkocsis/University/blob/master/2018-19-2/Szoftvertechnológia/wikis/MegoldasiTerv.md)
 
 **Projekt betöltése és futtatása**
 
