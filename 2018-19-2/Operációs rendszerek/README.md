@@ -15,12 +15,12 @@ Készítsen C programot, amellyel a leírt tevékenység elvégezhető.
 
 **ZH**
 
-Operációs rendszerek ZH. 2019 május 16. 14 óra. A programnak az os.inf.elte.hu gépen kell futni. „Esőisten siratja” az országot, esőben virágzik az akác, veszélyben az akácméz! A főméhész (szülő) figyelemmel kíséri az időjárást és irányítja a mobil kaptármozgató csapatot. (gyerek)
+Operációs rendszerek ZH. 2019 május 16. 14 óra. A programnak az os.inf.elte.hu gépen kell futni. „Esőisten siratja” az országot, esőben virágzik az akác, veszélyben az akácméz! A főméhész (szülő) figyelemmel kíséri az időjárást és irányítja a mobil kaptármozgató csapatot. (gyerek)
 
-1. Miután a radaros előrejelzés alapján egy akácos felett kitisztul az ég, főméhész (szülő) riasztja(jelzés) a mobil csapatot(gyerek), hogy készüljenek. A csapat miután megkapta a jelzést, képernyőre írja azt, hogy riasztás érkezett, majd amint a csapat útra kész (1-3 másodperc, véletlenszerűen) visszaírja üzenetsoron, hogy „Csapat útra kész!”. Ezt a szülő képernyőre írja, majd bevárja a csapat befejezését és maga is terminál.
+1. Miután a radaros előrejelzés alapján egy akácos felett kitisztul az ég, főméhész (szülő) riasztja(jelzés) a mobil csapatot(gyerek), hogy készüljenek. A csapat miután megkapta a jelzést, képernyőre írja azt, hogy riasztás érkezett, majd amint a csapat útra kész (1-3 másodperc, véletlenszerűen) visszaírja üzenetsoron, hogy „Csapat útra kész!”. Ezt a szülő képernyőre írja, majd bevárja a csapat befejezését és maga is terminál.
 
-2. A főméhész miután megkapta a csapat értesítését, hogy útra készen vannak, elküldi az akácos GPS koordinátáit(2 egész szám, X,Y) csövön keresztül a mobil csapatnak. A koordináták értékeit mindkét fél a képernyőre írja a PID értékükkel együtt, majd befejezik tevékenységüket.
+2. A főméhész miután megkapta a csapat értesítését, hogy útra készen vannak, elküldi az akácos GPS koordinátáit(2 egész szám, X,Y) csövön keresztül a mobil csapatnak. A koordináták értékeit mindkét fél a képernyőre írja a PID értékükkel együtt, majd befejezik tevékenységüket.
 
-3. Miután a mobil csapat megkapta az akácos koordinátákat, elindulnak elfoglalni a területet. Amint elfoglalták azt, osztott memóriába írják, hogy az „ X,Y GPS koordinátájú akácos elfoglalva!”. Ezt a tartalmat szülő a képernyőre írja.
+3. Miután a mobil csapat megkapta az akácos koordinátákat, elindulnak elfoglalni a területet. Amint elfoglalták azt, osztott memóriába írják, hogy az „ X,Y GPS koordinátájú akácos elfoglalva!”. Ezt a tartalmat szülő a képernyőre írja.
 
-4. Több csapat is pályázik az értékes akácosokra, védje mutex használattal az osztottmemóriát.
+4. Több csapat is pályázik az értékes akácosokra, védje mutex használattal az osztottmemóriát.
