@@ -24,3 +24,6 @@ Operációs rendszerek ZH. 2019 május 16. 14 óra. A programnak az os.inf.elte.
 3. Miután a mobil csapat megkapta az akácos koordinátákat, elindulnak elfoglalni a területet. Amint elfoglalták azt, osztott memóriába írják, hogy az „ X,Y GPS koordinátájú akácos elfoglalva!”. Ezt a tartalmat szülő a képernyőre írja.
 
 4. Több csapat is pályázik az értékes akácosokra, védje mutex használattal az osztottmemóriát.
+
+*Forrás: os.inf.elte.hu*
+*Tanár: Illés Zoltán, Heizlerné Bakonyi Viktória*
