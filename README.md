@@ -11,7 +11,6 @@ This repo contains my implementations during my university years.
     - [Code of Solidity contract](./UoE/BDL/morra.sol)
 - Assignment 3: implementing a token storing smart contract
     - [Report](./UoE/BDL/BDL_Assign3.pdf)
-    - [Code of Solidity contract](./UoE/BDL/SafeMath.sol)
 - Assingment 4: implementing a fair token swapping contract
     - [Report](./UoE/BDL/BDL_Assign4.pdf)
     - [Code of Solidity contract](./UoE/BDL/FairSwap.sol)
