@@ -4,6 +4,14 @@ This repo contains my implementations during my university years.
 
 ## The University of Edinburgh (2020-2021)
 
+### Internet of Things Systems, Security and the Cloud (Semester 2)
+
+- Activity recognition system for an Andoid phone using Google Cloud and an Mbed Discovery IoT node
+    - [Report](./UoE/IoTSSC/report.pdf)
+    - [Code of the Google Cloud server](./UoE/IoTSSC/cloud)
+    - [Code of the Android application](./UoE/IoTSSC/mobile-app)
+    - [Code of the embedded device](./UoE/IoTSSC/firmware)
+    
 ### Blockchains and Distributed Ledgers (Semester 1)
 
 - Assignment 2: implementing a secure [Morra](https://en.wikipedia.org/wiki/Morra_%28game%29) game
@@ -14,14 +22,6 @@ This repo contains my implementations during my university years.
 - Assingment 4: implementing a fair token swapping contract
     - [Report](./UoE/BDL/BDL_Assign4.pdf)
     - [Code of Solidity contract](./UoE/BDL/FairSwap.sol)
-
-### Internet of Things Systems, Security and the Cloud
-
-- Activity recognition system for an Andoid phone using Google Cloud and an Mbed Discovery IoT node
-    - [Report](./UoE/IoTSSC/report.pdf)
-    - [Code of the Google Cloud server](./UoE/IoTSSC/cloud)
-    - [Code of the Android application](./UoE/IoTSSC/mobile-app)
-    - [Code of the embedded device](./UoE/IoTSSC/firmware)
 
 ## Eötvös Loránd University, Budapest (2017-2020)
 - Thesis: Diagnosing vulnerabilities with static analysis
