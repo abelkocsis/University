@@ -1,0 +1,49 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Misc
+.DS_Store
+
+# App files
+update_default_resources.c
+mbed_cloud_dev_credentials.c
+BUILD
+.mbed
+update_key.key
+update_certificate.pem
+mbed-cloud-client
+mbed-os
+drivers/COMPONENT_WIFI_ESP32
+drivers/COMPONENT_WIFI_ISM43362
+TESTS/pelion-e2e-python-test-library
+drivers/storage/COMPONENT_NUSD
+.update-config
