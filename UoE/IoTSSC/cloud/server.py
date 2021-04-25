@@ -26,9 +26,9 @@ isActive = False
 milestones = [0, 20, 30, 40, 50, 60, 70, 200, 500, 9999999]
 
 # Token to access to Firebase
-firebaseServerToken = 'AAAA_IXFOTs:APA91bEMJfZADlgCWpsoCygqUedkEKzRQR36Iha4zzaXMW4uoySPOZBHE2P8mbDcqtXcwZolWc5ybkQejuxK6SrR8INPl4jQFqm02Fl9816ZPI30na3NTva-fVxaVR03E9aUVy5lSbpG'
+firebaseServerToken = 'token'
 # device Token in Firebase
-deviceToken = 'fBoJIBr2Q7O3uwoM_N3JI-:APA91bE4TT2rPlC-sXHs_Y1-H6ETNNO6bARPve4GlDvQFp9gkr7q68GbYb2V9Ig9qjeX1QJXNdX9fUxC-0MR-vKl5q4pivSfkeukWuouQlQ9QAA8V8W3VXiW1dDtbBxlhLlYBP8iig7v'
+deviceToken = 'token'
 #Token which is required from the app side
 appToken = '6#fJ5m9BBpjSM&r$heYbLS4GJqcqypjzLCcYLMqJ8M4qAgGLDpA*8&vb$8zNMH^uk8x@&tHDy$Yo5V9a$W&K6GDansQxW!9TjEW6du&4TKB3PsdP#mirTkvHXEm@ZAYQ'
 classifier = KNeighborsClassifier(n_neighbors=7)

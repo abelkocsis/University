@@ -6,9 +6,15 @@ This repo contains my implementations during my university years.
 
 ### Blockchains and Distributed Ledgers (Semester 1)
 
-- Assignment 1: implementing a secure [Morra](https://en.wikipedia.org/wiki/Morra_%28game%29) game
-    - [Report](./UoE/BDL/BDL_Assign1.pdf)
+- Assignment 2: implementing a secure [Morra](https://en.wikipedia.org/wiki/Morra_%28game%29) game
+    - [Report](./UoE/BDL/BDL_Assign2.pdf)
     - [Code of Solidity contract](./UoE/BDL/morra.sol)
+- Assignment 3: implementing a token storing smart contract
+    - [Report](./UoE/BDL/BDL_Assign3.pdf)
+    - [Code of Solidity contract](./UoE/BDL/SafeMath.sol)
+- Assingment 4: implementing a fair token swapping contract
+    - [Report](./UoE/BDL/BDL_Assign4.pdf)
+    - [Code of Solidity contract](./UoE/BDL/FairSwap.sol)
 
 ### Internet of Things Systems, Security and the Cloud
 
