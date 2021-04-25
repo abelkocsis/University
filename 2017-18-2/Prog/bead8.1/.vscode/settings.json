@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "typeinfo": "cpp",
-        "__config": "cpp",
-        "__nullptr": "cpp"
-    }
-}
