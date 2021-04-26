@@ -55,6 +55,12 @@ This repo contains my implementations during my university years.
 - [Assignment C++ files](./ELTE/OPRE/beadando)
 - [Class test C++ files](./ELTE/OPRE/zh)
 
+### Computer Algebra Systems (Semester 4)
+
+- Assignment
+    - [Assignment Exercises](./ELTE/CompAlg/README.md) (Hungarian)
+    - [Solutions](./ELTE/CompAlg)
+
 ### Event driven applications (Semester 3)
 
 - Assingment 1: N-Princess problem
