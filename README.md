@@ -39,9 +39,15 @@ This repo contains my implementations during my university years.
 ### Software Technology (Semester 4)
 
 - Assignment: Tower Defense game
-    - [Project Readme](./ELTE/SzofTech/README.md)
-    - [Project Documentation](./ELTE/SzofTech/wikis)
+    - [Project Readme](./ELTE/SzofTech/README.md) (Hungarian)
+    - [Project Documentation](./ELTE/SzofTech/wikis) (Hungarian)
     - [C++ files](./ELTE/SzofTech/TowerDefense)
+
+### Operation Systems (Semester 4)
+
+- [Assignment and test description](./ELTE/OPRE/README.md) (Hungarian)
+- [Assignment C++ files](./ELTE/OPRE/beadando)
+- [Class test C++ files](./ELTE/OPRE/zh)
 
 ### Event driven applications (Semester 3)
 
