@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libcodeToTest.a  CMakeFiles/codeToTest.dir/TowerDefense/GameModel.cpp.o CMakeFiles/codeToTest.dir/TowerDefense/Soldier.cpp.o CMakeFiles/codeToTest.dir/TowerDefense/Tower.cpp.o CMakeFiles/codeToTest.dir/TowerDefense/Player.cpp.o CMakeFiles/codeToTest.dir/TowerDefense/Structures.cpp.o CMakeFiles/codeToTest.dir/TowerDefense/mock_network.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libcodeToTest.a
