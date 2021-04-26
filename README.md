@@ -28,13 +28,25 @@ This repo contains my implementations during my university years.
 ### Thesis
 
 - Title: Diagnosing vulnerabilities with static analysis
-    - [Thesis](./ELTE/Thesis/Thesis.pdf)
+    - [Thesis](./ELTE/Thesis/Thesis.pdf) (Hungarian)
     - Checkers for LLVM Clang-Tidy:
         - [Spuriously wake up function](https://github.com/llvm/llvm-project/commit/0f4c70dd3ec6d7ee831f868e3e483273daec18f0)
         - [Bad signal to kill thread](https://github.com/llvm/llvm-project/commit/8d288a0668a574863d52784084ff565c89f7366e)
         - [Signal in multithreaded program](https://reviews.llvm.org/D75229) (under review)
         - [Do not refer atomic twice](https://reviews.llvm.org/D77493) (under review)
     - Implemented test environment: [Clang Test Docker](https://github.com/abelkocsis/clang-test-docker)
+
+### Event driven applications (Semester 3)
+
+- Assingment 1: N-Princess problem
+    - [Documentation](./ELTE/EVA/bead1/doc/Assign1.pdf) (Hungarian)
+    - [C++ files](./ELTE/EVA/bead1/src/)
+- Assingment 2: Simple game
+    - [Documentation](./ELTE/EVA/bead2/doc/Assign2.pdf) (Hungarian)
+    - [C++ files](./ELTE/EVA/bead2/src/)
+- Assingment 3: 2 Player game
+    - [Documentation](./ELTE/EVA/bead3/doc/Assign3.pdf) (Hungarian)
+    - [C++ files](./ELTE/EVA/bead3/src/)
 
 ### Programming (Semester 2)
 
