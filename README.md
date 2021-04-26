@@ -28,6 +28,7 @@ This repo contains my implementations during my university years.
 ### Thesis
 
 - Title: Diagnosing vulnerabilities with static analysis
+    - [Thesis](./ELTE/Thesis/Thesis.pdf)
     - Checkers for LLVM Clang-Tidy:
         - [Spuriously wake up function](https://github.com/llvm/llvm-project/commit/0f4c70dd3ec6d7ee831f868e3e483273daec18f0)
         - [Bad signal to kill thread](https://github.com/llvm/llvm-project/commit/8d288a0668a574863d52784084ff565c89f7366e)
