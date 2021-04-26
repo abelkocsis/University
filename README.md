@@ -36,6 +36,13 @@ This repo contains my implementations during my university years.
         - [Do not refer atomic twice](https://reviews.llvm.org/D77493) (under review)
     - Implemented test environment: [Clang Test Docker](https://github.com/abelkocsis/clang-test-docker)
 
+### Software Technology (Semester 4)
+
+- Assignment: Tower Defense game
+    - [Project Readme](./ELTE/SzofTech/README.md)
+    - [Project Documentation](./ELTE/SzofTech/wikis)
+    - [C++ files](./ELTE/SzofTech/TowerDefense)
+
 ### Event driven applications (Semester 3)
 
 - Assingment 1: N-Princess problem
