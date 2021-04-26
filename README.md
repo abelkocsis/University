@@ -43,6 +43,12 @@ This repo contains my implementations during my university years.
     - [Project Documentation](./ELTE/SzofTech/wikis) (Hungarian)
     - [C++ files](./ELTE/SzofTech/TowerDefense)
 
+### Advanced Haskell (Semester 4)
+
+- Final test
+    - [Test description](./ELTE/HASK/README.md) (Hungarian)
+    - [Test solution](./ELTE/HASK/Vizsga2.hs)
+
 ### Operation Systems (Semester 4)
 
 - [Assignment and test description](./ELTE/OPRE/README.md) (Hungarian)

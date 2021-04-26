@@ -1,3 +1,6 @@
+*Kód alapja: https://github.com/Anabra/Advanced-Haskell-Practice*
+*Tanár: Podlovics Péter*
+
 **Vizsga feladatsor:**
 
 **Haladó Haskell vizsga**
@@ -199,6 +202,3 @@ Megjegyzés: Légyszi a feltöltésetekhez majd írjátok oda az órai +pontokat
 3: 13-15
 4: 16-17
 5: 18-
-
-*Kód alapja: https://github.com/Anabra/Advanced-Haskell-Practice*
-*Tanár: Podlovics Péter*

@@ -1,3 +1,6 @@
+*Tanár: Nagy Ádám*
+*Forrás: nagyadam.xyz*
+
 **Feladatleírások**
 
 **Grafika I 6**
@@ -31,15 +34,3 @@ Készítsünk osztályt, amely az ElGamal titkosítást végzi.
 **Algebra 6**
 
 Írjunk eljárást, amely megpróbálja "megtörni" az előző titkosítási sémát a publikus adatok alapján.
-
-
-
-
-
-
-
-
-
-
-*Tanár: Nagy Ádám*
-*Forrás: nagyadam.xyz*
