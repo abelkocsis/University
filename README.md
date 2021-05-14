@@ -22,6 +22,19 @@ This repo contains my implementations during my university years.
 - Assingment 4: implementing a fair token swapping contract
     - [Report](./UoE/BDL/BDL_Assign4.pdf)
     - [Code of Solidity contract](./UoE/BDL/FairSwap.sol)
+## Hack The Box Academy
+
+- [Transcript](./HTB/HTB_TRanscript_AbelKocsis.pdf)
+- Completed modules:
+    - Introduction to Academy
+    - Learning Process
+    - Getting Started
+    - Linux Fundamentals
+    - Web Requests
+    - Attacking Web Applications with Ffuf
+    - JavaScript Deobfuscation
+    - SQL Injection Fundamentals
+    - Stack-Based Buffer Overflows on Linux x86
 
 ## Eötvös Loránd University, Budapest (2017-2020)
 
