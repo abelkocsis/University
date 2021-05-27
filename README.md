@@ -24,7 +24,7 @@ This repo contains my implementations during my university years.
     - [Code of Solidity contract](./UoE/BDL/FairSwap.sol)
 ## Hack The Box Academy (2021-)
 
-- [Transcript](./HTB/HTB_TRanscript_AbelKocsis.pdf)
+- [Transcript](./HTB/HTB_Transcript_AbelKocsis.pdf)
 - Completed modules:
     - Introduction to Academy
     - Learning Process
