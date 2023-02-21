@@ -2,7 +2,7 @@
 
 This repo contains my implementations during my university years.
 
-## The University of Edinburgh (2020-)
+## The University of Edinburgh (2020-2021)
 
 ### Internet of Things Systems, Security and the Cloud (Semester 2)
 
@@ -22,7 +22,7 @@ This repo contains my implementations during my university years.
 - Assingment 4: implementing a fair token swapping contract
     - [Report](./UoE/BDL/BDL_Assign4.pdf)
     - [Code of Solidity contract](./UoE/BDL/FairSwap.sol)
-## Hack The Box Academy (2021-)
+## Hack The Box Academy (2021)
 
 - [Transcript](./HTB/HTB_Transcript_AbelKocsis.pdf)
 - Completed modules:
